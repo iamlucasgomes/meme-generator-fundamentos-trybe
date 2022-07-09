@@ -115,3 +115,29 @@ h1 {
 #carbon:active {
   transform: translate(0 , 0.2em);
 }
+
+#memes-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#meme-1 {
+  width: 150px;
+  border: 1px solid black;
+}
+
+#meme-2 {
+  width: 150px;
+  border: 1px solid black;
+}
+
+#meme-3 {
+  width: 150px;
+  border: 1px solid black;
+}
+
+#meme-4 {
+  width: 150px;
+  border: 1px solid black;
+}
