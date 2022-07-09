@@ -51,7 +51,7 @@ function setCarbon() {
 
 carbon.addEventListener('click', setCarbon);
 
-function thumbImagesClick() {
+function thumbMeme() {
   for (let index = 0; index < images.length; index += 1) {
     images[index].addEventListener('click', () => {
       memeImage.src = images[index].src;
@@ -59,4 +59,4 @@ function thumbImagesClick() {
   }
 }
 
-thumbImagesClick();
+thumbMeme();

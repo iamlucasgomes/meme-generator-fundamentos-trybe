@@ -1,15 +1,61 @@
 body {
   font-family: Courier New, Courier, monospace;
+  background-color: rgb(17 , 17 , 17);
+  color: white;
 }
 
 h1 {
-  margin: 20px 0  0 15.7%;
+  text-align: center;
+}
+
+.margin {
+  margin-top: 10px;
+}
+
+#meme-input {
+  text-align: center;
+}
+
+#text-input {
+  width: 800px;
+  height: 30px;
+  border: 2px solid transparent;
+  outline: none;
+  border-bottom: 2px solid rgb(63 , 63 , 63);
+  caret-color: rgb(63 , 63 , 63);
+  background-color: rgb(33 , 33 , 33);
+  padding: 5px;
+  transition: 0.5s linear;
+  font-family: monospace;
+  letter-spacing: 1px;
+}
+
+#text-input:focus {
+  border: 2px solid white;
+  caret-color: white;
+  color: white;
+  box-shadow: 4px 4px 10px rgb(7 , 7 , 7);
+}
+
+#text-input:focus::placeholder {
+  color: white;
 }
 
 #meme-container {
-  font-family: Courier New, Courier, monospace;
+  font-family: monospace;
   margin: 20px auto;
   width: 1000px;
+}
+
+#meme-insert {
+  background-color: rgba(128 , 128 , 128 , 0.438);
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0 , 0 , 0 , 0.4);
+  color: white;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 
 #meme-image-container {
@@ -25,7 +71,7 @@ h1 {
   overflow-wrap: break-word;
   padding: 20px;
   position: absolute;
-  bottom: 6%;
+  bottom: 1%;
   width: 550px;
   text-align: center;
   text-transform: uppercase;
@@ -42,6 +88,8 @@ h1 {
 
 #buttons {
   margin-top: 3px;
+  margin-left: 10px;
+  text-align: center;
 }
 
 #fire {
@@ -109,7 +157,7 @@ h1 {
 }
 
 #carbon:hover {
-  background: linear-gradient(90deg , rgb(17 , 17 , 17) 0% , rbb(14 , 14 , 14) 100%);
+  background: linear-gradient(90deg , rgb(17 , 17 , 17) 0% , rgb(14 , 14 , 14) 100%);
 }
 
 #carbon:active {
@@ -141,3 +189,22 @@ h1 {
   width: 150px;
   border: 1px solid black;
 }
+
+#download {
+  background-color: black;
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0 , 0 , 0 , 0.4);
+  color: white;
+  border-radius: 4px;
+}
+
+#download:hover {
+  background: linear-gradient(90deg , rgb(17 , 17 , 17) 0% , rgb(14 , 14 , 14) 100%);
+}
+
+#download:active {
+  transform: translate(0 , 0.2em);
+}
+

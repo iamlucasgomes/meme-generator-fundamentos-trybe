@@ -15,20 +15,22 @@
   </header>
   <main>
     <fieldset id="meme-container">
-      <div>
-        <label for="text-input">Insira seu texto aqui:
-          <input type="text" name="input" id="text-input" maxlength="60">
-        </label>
-      </div>
-      <div>
-        <label for="meme-insert"></label>
-        <input type="file" name="imagem" id="meme-insert">
-      </div>
+      <div id="meme-input">
+        <div id="text-input-container">
+          <div class="margin"><label for="text-input">Insira seu texto aqui:</div>
+            <input type="text" name="input" id="text-input" maxlength="60" placeholder="Insira seu texto">
+          </label>
+        </div>
+        <div class="margin">
+          <label for="meme-insert"></label>
+          <input type="file" name="imagem" id="meme-insert">
+        </div>
+        </div>
       </div>
       <div id="meme-image-container">
         <div>
           <p id="meme-text"></p>
-          <img id="meme-image" alt="Imagem do meme">
+          <img id="meme-image" alt="Imagem do meme" src="imgs/white.png">
         </div>
       </div>
       <div id="buttons">
@@ -36,6 +38,7 @@
         <button id="water">Water</button>
         <button id="earth">Earth</button>
         <button id="carbon">Carbon</button>
+        <button id="download">Baixar Meme</button>
       </div>
       <div id="memes-container">
         <div><img id="meme-1" src="imgs/meme1.png" alt="meme"></div>
