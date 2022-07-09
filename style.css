@@ -1,0 +1,13 @@
+body {
+  font-family: Courier New, Courier, monospace;
+}
+
+h1 {
+  margin: 20px 0  0 15.7%;
+}
+
+#meme-container {
+  font-family: Courier New, Courier, monospace;
+  margin: 20px auto;
+  width: 1000px;
+}
