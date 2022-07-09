@@ -39,3 +39,79 @@ h1 {
   max-width: 100%;
   max-height: 100%;
 }
+
+#buttons {
+  margin-top: 3px;
+}
+
+#fire {
+  background-color: red;
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0 , 0 , 0 , 0.4);
+  color: white;
+  border-radius: 4px;
+}
+
+#fire:hover {
+  background: linear-gradient(90deg , darkred 0% , maroon 100%);
+}
+
+#fire:active {
+  transform: translate(0 , 0.2em);
+}
+
+#water {
+  background-color: blue;
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0 , 0 , 0 , 0.4);
+  color: white;
+  border-radius: 4px;
+}
+
+#water:hover {
+  background: linear-gradient(90deg , darkblue 0% , navy 100%);
+}
+
+#water:active {
+  transform: translate(0 , 0.2em);
+}
+
+#earth {
+  background-color: green;
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0 , 0 , 0 , 0.4);
+  color: white;
+  border-radius: 4px;
+}
+
+#earth:hover {
+  background: linear-gradient(90deg , darkgreen 0% , rgb(0 , 80 , 0) 100%);
+}
+
+#earth:active {
+  transform: translate(0 , 0.2em);
+}
+
+#carbon {
+  background-color: black;
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0 , 0 , 0 , 0.4);
+  color: white;
+  border-radius: 4px;
+}
+
+#carbon:hover {
+  background: linear-gradient(90deg , rgb(17 , 17 , 17) 0% , rbb(14 , 14 , 14) 100%);
+}
+
+#carbon:active {
+  transform: translate(0 , 0.2em);
+}

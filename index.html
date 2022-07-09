@@ -10,7 +10,9 @@
 </head>
 
 <body>
-  <header><h1>MEME GENERATOR</h1></header>
+  <header>
+    <h1>MEME GENERATOR</h1>
+  </header>
   <main>
     <fieldset id="meme-container">
       <div>
@@ -18,18 +20,24 @@
           <input type="text" name="input" id="text-input" maxlength="60">
         </label>
       </div>
-        <div>
-          <label for="meme-insert"></label>
-            <input type="file" name="imagem" id="meme-insert">
-        </div>
-    </div>
-    <div id="meme-image-container">
       <div>
-        <p id="meme-text"></p>
-        <img id="meme-image" alt="Imagem do meme">
+        <label for="meme-insert"></label>
+        <input type="file" name="imagem" id="meme-insert">
       </div>
-    </div>
-  </fieldset>
+      </div>
+      <div id="meme-image-container">
+        <div>
+          <p id="meme-text"></p>
+          <img id="meme-image" alt="Imagem do meme">
+        </div>
+      </div>
+      <div id="buttons">
+        <button id="fire">Fire</button>
+        <button id="water">Water</button>
+        <button id="earth">Earth</button>
+        <button id="carbon">Carbon</button>
+      </div>
+    </fieldset>
   </main>
   <footer></footer>
   <script src="script.js"></script>
