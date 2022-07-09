@@ -15,20 +15,21 @@
     <fieldset id="meme-container">
       <div>
         <label for="text-input">Insira seu texto aqui:
-          <input type="text" name="input" id="text-input">
+          <input type="text" name="input" id="text-input" maxlength="51">
         </label>
       </div>
         <div>
-          <label for="meme-insert">
+          <label for="meme-insert"></label>
             <input type="file" name="imagem" id="meme-insert">
-                </label>
         </div>
     </div>
-  </fieldset>
     <div id="meme-image-container">
-      <div id="meme-text">
+      <div>
+        <p id="meme-text"></p>
+        <img id="meme-image" alt="Imagem do meme">
       </div>
     </div>
+  </fieldset>
   </main>
   <footer></footer>
   <script src="script.js"></script>
