@@ -21,7 +21,7 @@ h1 {
 
 #meme-text {
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   overflow-wrap: break-word;
   padding: 20px;
   position: absolute;
@@ -30,15 +30,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   margin: 100px 225px;
-  text-shadow: 2px 2px 0 black,
-    -2px -2px 0 black,
-    2px -2px 0 black,
-    -2px 2px 0 black,
-    0 2px 0 black,
-    2px 0 0 black,
-    0 -2px 0 black,
-    -2px 0 0 black,
-    2px 2px 5px black;
+  text-shadow: 5px 5px 5px black;
 }
 
 #meme-image {
